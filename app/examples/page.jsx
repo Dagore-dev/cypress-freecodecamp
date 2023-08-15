@@ -35,7 +35,7 @@ const items = [
 export default function ExamplesPage(){ 
     return (
         <main className={styles.main}>
-            <h1 className={styles.header}>
+            <h1 className={styles.header} data-test="examples-header">
                 Examples
             </h1>
             <ItemsAccordion items={items} />

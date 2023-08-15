@@ -32,7 +32,7 @@ const items = [
 export default function Overview(){
     return (
         <main className={styles.main}>
-            <h1 className={styles.header}>
+            <h1 className={styles.header} data-test="overview-header">
                 Overview & Install
             </h1>
             <ItemsAccordion items={items} />
